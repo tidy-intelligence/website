@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Tidy Intelligence"
+  description: "Let your data spark joy!"
+  site-url: https://www.tidy-intelligence.com
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: [cosmo, assets/theme.scss]
+    css: assets/styles.css
+    toc: true
+    smooth-scroll: true
