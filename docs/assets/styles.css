@@ -1,0 +1,10 @@
+/* css styles */
+
+.navbar a {
+  float: left; /* Float the links side by side */
+  display: block;
+  color: white; /* Set the text color */
+  text-align: center;
+  padding: 14px 16px; /* Adjust padding as needed */
+  text-decoration: none; /* Remove underline */
+}

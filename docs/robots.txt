@@ -1,0 +1,3 @@
+Sitemap: https://www.tidy-intelligence.org/sitemap.xml
+User-agent: GPTBot
+Disallow: /
