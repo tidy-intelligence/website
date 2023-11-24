@@ -7,10 +7,14 @@ website:
   description: "Let your data spark joy!"
   site-url: https://www.tidy-intelligence.com
   search: false
+  page-navigation: false
   navbar:
     pinned: true
     left:
-      - about.qmd
+      - text: "Blog"
+        url: https://blog.tidy-intelligence.com/
+      - text: "About"
+        file: about.qmd
 
 format:
   html:
@@ -18,5 +22,6 @@ format:
       - cosmo, 
       - assets/theme.scss
     css: assets/styles-global.css
-    toc: true
+    toc: false
     smooth-scroll: true
+    from: markdown+emoji

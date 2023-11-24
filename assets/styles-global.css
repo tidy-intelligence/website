@@ -1,12 +1,23 @@
 .navbar a {
-  float: left; /* Float the links side by side */
+  float: left; 
   display: block;
-  color: white; /* Set the text color */
+  color: white; 
   text-align: center;
-  padding: 14px 16px; /* Adjust padding as needed */
-  text-decoration: none; /* Remove underline */
+  padding: 14px 16px; 
+  text-decoration: none; 
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
+}
+
+.emphasize {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+a {
+  text-decoration: none; 
+  color: #3b9ab2;
 }

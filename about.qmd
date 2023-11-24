@@ -1,5 +1,31 @@
 ---
-title: "About"
+metadata:
+  pagetitle: "About Tidy Intelligence"
+  description-meta: "Who is behind Tidy Intelligence?"
+about:
+  id: hero-heading
+  template: trestles
+  image: images/avatar.jpeg
+  image-width: 16em
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Mail
+      href: 'mailto:christoph@tidy-intelligence.com'
+    - icon: github
+      text: Github
+      href: https://github.com/christophscheuch
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/christophscheuch/
 ---
 
-About this site
+:::{.emphasize}
+Economist by :mortar_board: and a data scientist by :heart: 
+:::
+
+:::{#hero-heading}
+As a graduate financial economist, I've acquired an extensive hypothesis–driven research and problem–solving expertise in data wrangling, statistical analysis, and model development.
+
+As a data science professional, I have experience in underpinning business decisions with useful insights, developing novel data-driven products, and maintaining data-related best-practices from a technical perspective.
+:::
