@@ -1,5 +1,3 @@
-/* css styles */
-
 .navbar a {
   float: left; /* Float the links side by side */
   display: block;
@@ -7,4 +5,8 @@
   text-align: center;
   padding: 14px 16px; /* Adjust padding as needed */
   text-decoration: none; /* Remove underline */
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
 }

@@ -6,15 +6,17 @@ website:
   title: "Tidy Intelligence"
   description: "Let your data spark joy!"
   site-url: https://www.tidy-intelligence.com
+  search: false
   navbar:
+    pinned: true
     left:
-      - href: index.qmd
-        text: Home
       - about.qmd
 
 format:
   html:
-    theme: [cosmo, assets/theme.scss]
-    css: assets/styles.css
+    theme:
+      - cosmo, 
+      - assets/theme.scss
+    css: assets/styles-global.css
     toc: true
     smooth-scroll: true

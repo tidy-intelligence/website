@@ -1,24 +1,15 @@
 ---
 format: 
   html:
-    include-in-header: assets/particles-header.html
-    include-after-body: assets/particles-bottom.html
+    include-in-header: 
+      - assets/header-particles.html
+    include-after-body: 
+      - assets/bottom-particles.html
+    css: 
+      - assets/styles-index.css
 ---
 
-<style>
+::: {#centered-text}
+Let your data spark joy!
+:::
 
-body {
-  background-color: transparent;
-}
-
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #3b9ab2;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-</style>
