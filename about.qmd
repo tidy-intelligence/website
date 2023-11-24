@@ -6,26 +6,18 @@ about:
   id: hero-heading
   template: trestles
   image: images/avatar.jpeg
-  image-width: 16em
+  image-width: 14em
   image-shape: round
-  links:
-    - icon: envelope
-      text: Mail
-      href: 'mailto:christoph@tidy-intelligence.com'
-    - icon: github
-      text: Github
-      href: https://github.com/christophscheuch
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/christophscheuch/
 ---
 
 :::{.emphasize}
-Economist by :mortar_board: and a data scientist by :heart: 
+Economist by :mortar_board: and data scientist by :heart: 
 :::
 
 :::{#hero-heading}
-As a graduate financial economist, I've acquired an extensive hypothesis–driven research and problem–solving expertise in data wrangling, statistical analysis, and model development.
+Hi there, I'm Christoph!
 
-As a data science professional, I have experience in underpinning business decisions with useful insights, developing novel data-driven products, and maintaining data-related best-practices from a technical perspective.
+As a graduate financial economist, I have acquired an extensive **hypothesis–driven** research and **problem–solving** expertise in **data wrangling**, **statistical analysis**, and **model development**.
+
+As a data science professional, I have experience in developing **business intelligence tools**, prototyping **data-driven products**, and designing **data pipelines**.
 :::
