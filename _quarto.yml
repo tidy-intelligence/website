@@ -8,6 +8,7 @@ website:
   site-url: https://www.tidy-intelligence.com
   search: false
   page-navigation: false
+  favicon: images/favicon.ico
   navbar:
     pinned: true
     left:
