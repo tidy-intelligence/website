@@ -21,3 +21,15 @@ a {
   text-decoration: none; 
   color: #3b9ab2;
 }
+
+.responsive-iframe {
+  width: 100%; /* Full width */
+  height: 800px; /* Default height */
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .responsive-iframe {
+      height: 1000px;
+  }
+}
