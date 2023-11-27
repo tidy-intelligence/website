@@ -23,8 +23,8 @@ a {
 }
 
 .responsive-iframe {
-  width: 100%; /* Full width */
-  height: 800px; /* Default height */
+  width: 100%;
+  height: 800px;
 }
 
 /* For mobile phones */
