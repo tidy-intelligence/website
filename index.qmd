@@ -10,13 +10,24 @@ format:
 ---
 
 ::: {#particles-js}
-::: {.centered-text}
+::: {#centered-text-white}
   Let your data spark joy!
 :::
 :::
 
-# This is a new section
+::: {#centered-text-blue}
+  Welcome to Tidy Intelligence
+:::
 
-Test test
-
-
+```{=html}
+<div class="card-container">
+  <div class="card" onclick="window.location.href='https://blog.tidy-intelligence.com/index.html'">
+      <img src="assets/img/code.png" alt="Italian Trulli" width="100%">
+      <a href="https://blog.tidy-intelligence.com/">Learn about data and machine learning</a>
+  </div>
+  <div class="card" onclick="window.location.href='https://blog.tidy-intelligence.com/index.html'">
+      <img src="assets/img/logo-white.png" alt="Italian Trulli" width="100%">
+      <a href="../about.html">Find out who is behind this website</a>
+  </div>
+</div>
+``` 

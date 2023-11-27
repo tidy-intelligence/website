@@ -1,23 +1,35 @@
 body {
-  background-color: #fff;
+  background-color: white;
   overflow-x: hidden;
 }
 
-.centered-text {
+#centered-text-white {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 48px;
+  font-size: 40px;
   text-align: center;
   z-index: 2;
+}
+
+#centered-text-blue {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 25%);
+  color: #3b9ab2;
+  font-size: 40px;
+  text-align: center;
+  z-index: 2;
+  margin: 16px;
+  padding: 16px;
 }
 
 #particles-js {
   position: relative;
   width: 100vw;
-  height: 50vh;
+  height: 33vh;
   background-color: #3b9ab2;
   background-repeat: no-repeat;
   z-index: 1;
@@ -30,9 +42,56 @@ body {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  margin-top: -8px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 #quarto-document-content {
   padding-top: 0px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  position: relative;
+  justify-content: center;
+  gap: 16px;
+  margin: 16px;
+  padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+  }
+}
+
+.card {
+  border: 0px solid #ddd;
+  display: grid;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  max-width: 250px;
+  transition: box-shadow 0.7s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 50%;
+  padding: 24px;
+}
+
+#dynamicText {
+  font-size: 20px;
+  font-weight: bold;
 }
