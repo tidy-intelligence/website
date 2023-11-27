@@ -5,7 +5,7 @@ metadata:
 about:
   id: hero-heading
   template: trestles
-  image: images/avatar.jpeg
+  image: assets/img/avatar.jpeg
   image-width: 14em
   image-shape: round
 ---

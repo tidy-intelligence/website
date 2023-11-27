@@ -8,7 +8,7 @@ website:
   site-url: https://www.tidy-intelligence.com
   search: false
   page-navigation: false
-  favicon: images/favicon.ico
+  favicon: assets/img/favicon.ico
   navbar:
     pinned: true
     left:
@@ -21,8 +21,9 @@ format:
   html:
     theme:
       - cosmo, 
-      - assets/theme.scss
-    css: assets/styles-global.css
+      - assets/css/theme.scss
+    css: assets/css/styles-global.css
     toc: false
     smooth-scroll: true
     from: markdown+emoji
+

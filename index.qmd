@@ -2,15 +2,21 @@
 format: 
   html:
     include-in-header: 
-      - assets/header-particles.html
+      - assets/html/header-particles.html
     include-after-body: 
-      - assets/bottom-particles.html
+      - assets/html/bottom-particles.html
     css: 
-      - assets/styles-index.css
+      - assets/css/styles-index.css
 ---
 
-::: {#centered-text}
-Let your data spark joy!
+::: {#particles-js}
+::: {.centered-text}
+  Let your data spark joy!
 :::
+:::
+
+# This is a new section
+
+Test test
 
 
