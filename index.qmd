@@ -12,7 +12,7 @@ format:
 ::: {#particles-js}
 ::: {#centered-text-white}
 ```{=html}
-<p style="font-family: 'Libre Baskerville', serif"><i>Let your data spark joy!<br><br></i></p>
+<p style="font-family: 'Libre Baskerville', serif"><i>Let your data spark joy<br><br></i></p>
 ```
 ```{=html}
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
