@@ -14,6 +14,14 @@ body {
   z-index: 2;
 }
 
+@media (max-width: 480px) {
+  #centered-text-white {
+      font-size: 32px;
+      text-align: left;
+      width: 90%;
+  }
+}
+
 #centered-text-blue {
   position: relative;
   left: 50%;
@@ -24,7 +32,16 @@ body {
   z-index: 2;
   max-width: 50%;
   margin: 16px;
-  padding: 16px;
+  padding: 8px;
+}
+
+@media (max-width: 480px) {
+  #centered-text-blue {
+      font-size: 32px;
+      text-align: left;
+      max-width: 100%;
+      margin: 8px;
+  }
 }
 
 #particles-js {
@@ -59,8 +76,13 @@ body {
   position: relative;
   justify-content: center;
   gap: 16px;
-  margin: 16px;
-  padding: 16px;
+  margin: 8px;
+  padding: 8px;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
 }
 
 @media screen and (min-width: 768px) {
@@ -80,7 +102,7 @@ body {
   cursor: pointer;
   width: 100%;
   max-width: 250px;
-  transition: box-shadow 0.7s;
+  transition: box-shadow 0.4s;
 }
 
 .card:hover {

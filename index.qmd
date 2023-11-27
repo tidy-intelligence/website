@@ -11,15 +11,17 @@ format:
 
 ::: {#particles-js}
 ::: {#centered-text-white}
-Let your data spark joy!
+```{=html}
+<p style="font-family: 'Libre Baskerville', serif"><i>Let your data spark joy!<br><br></i></p>
+```
 ```{=html}
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
-<p>Tidy <span id="typed"></span></p>
+<p>Tidy <br><strong><span id="typed"></span></strong></p>
 
 <script> 
 var typed = new Typed('#typed', {
-    strings: ["data", "code", "business intelligence", "artificial intelligence", "Intelligence"],
+    strings: ["Data", "Code", "Business Intelligence", "Artificial Intelligence", "Intelligence"],
     typeSpeed: 50,
     backSpeed: 50,
     loop: false,
@@ -37,7 +39,6 @@ var typed = new Typed('#typed', {
 ::: {#centered-text-blue}
   A home for tidy data scientists
 :::
-
 
 ```{=html}
 <div class="card-container">
