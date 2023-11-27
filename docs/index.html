@@ -103,15 +103,32 @@ ul.task-list li input[type="checkbox"] {
 <div id="particles-js">
 <div id="centered-text-white">
 <p>Let your data spark joy!</p>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+<p>Tidy <span id="typed"></span></p>
+
+<script> 
+var typed = new Typed('#typed', {
+    strings: ["data", "code", "business intelligence", "artificial intelligence", "Intelligence"],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: false,
+    showCursor: true, // Show the cursor during typing
+    onComplete: function(self) { 
+        // Hide the cursor after the last string is typed
+        self.cursor.remove();
+    }
+});
+</script>
 </div>
 </div>
 <div id="centered-text-blue">
-<p>Welcome to Tidy Intelligence</p>
+<p>A home for tidy data scientists</p>
 </div>
 <div class="card-container">
   <div class="card" onclick="window.location.href='https://blog.tidy-intelligence.com/index.html'">
       <img src="assets/img/code.png" alt="Italian Trulli" width="100%">
-      <a href="https://blog.tidy-intelligence.com/">Learn about data and machine learning</a>
+      <a href="https://blog.tidy-intelligence.com/">Explorer posts about data and machine learning</a>
   </div>
   <div class="card" onclick="window.location.href='https://blog.tidy-intelligence.com/index.html'">
       <img src="assets/img/logo-white.png" alt="Italian Trulli" width="100%">

@@ -22,6 +22,7 @@ body {
   font-size: 40px;
   text-align: center;
   z-index: 2;
+  max-width: 50%;
   margin: 16px;
   padding: 16px;
 }
@@ -29,7 +30,7 @@ body {
 #particles-js {
   position: relative;
   width: 100vw;
-  height: 33vh;
+  height: 50vh;
   background-color: #3b9ab2;
   background-repeat: no-repeat;
   z-index: 1;

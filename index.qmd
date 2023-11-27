@@ -11,19 +11,39 @@ format:
 
 ::: {#particles-js}
 ::: {#centered-text-white}
-  Let your data spark joy!
+Let your data spark joy!
+```{=html}
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+<p>Tidy <span id="typed"></span></p>
+
+<script> 
+var typed = new Typed('#typed', {
+    strings: ["data", "code", "business intelligence", "artificial intelligence", "Intelligence"],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: false,
+    showCursor: true, // Show the cursor during typing
+    onComplete: function(self) { 
+        // Hide the cursor after the last string is typed
+        self.cursor.remove();
+    }
+});
+</script>
+```
 :::
 :::
 
 ::: {#centered-text-blue}
-  Welcome to Tidy Intelligence
+  A home for tidy data scientists
 :::
+
 
 ```{=html}
 <div class="card-container">
   <div class="card" onclick="window.location.href='https://blog.tidy-intelligence.com/index.html'">
       <img src="assets/img/code.png" alt="Italian Trulli" width="100%">
-      <a href="https://blog.tidy-intelligence.com/">Learn about data and machine learning</a>
+      <a href="https://blog.tidy-intelligence.com/">Explorer posts about data and machine learning</a>
   </div>
   <div class="card" onclick="window.location.href='https://blog.tidy-intelligence.com/index.html'">
       <img src="assets/img/logo-white.png" alt="Italian Trulli" width="100%">
@@ -31,3 +51,6 @@ format:
   </div>
 </div>
 ``` 
+
+
+
