@@ -8,11 +8,17 @@ about:
   image: assets/img/avatar.jpeg
   image-width: 14em
   image-shape: round
+format: 
+  html:
+    include-in-header: 
+      - assets/html/header-emailjs.html
+    css: 
+      - assets/css/styles-consulting.css
 ---
 
 :::{.emphasize}
 Economist by :mortar_board: and data scientist by :heart: 
-:::
+::: 
 
 :::{#hero-heading}
 Hi there, I'm Christoph!
@@ -21,5 +27,24 @@ As a graduate financial economist, I have acquired an extensive **hypothesis–d
 
 As a data science professional, I have experience in developing **business intelligence tools**, prototyping **data-driven products**, and designing **data pipelines**.
 :::
+ 
+## Contact me  
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOd3QqhMfbP-LobwNaQ4W8mDJGGV_dl8mGn-ZCSxE0LjysEw/viewform?embedded=true" class="responsive-iframe" frameborder="0" marginheight="0" marginwidth="0">Loading contact form…</iframe>
+```{=html} 
+<div id="form-container">
+  <div id="toast">
+    <p id="toast-message">Message goes here</p>
+  </div>
+  <form id="contact-form">
+    <input type="hidden" name="contact_number">
+    <label>Your Name</label>
+    <input type="text" name="user_name">
+    <label>Your Email</label>
+    <input type="email" name="user_email">
+    <label>Your Request</label>
+    <textarea name="message"></textarea>
+    <input type="submit" value="Send">
+  </form>
+</div>
+``` 
+

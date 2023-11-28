@@ -50,9 +50,74 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<title>Contact Form</title>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  (function() {
+    emailjs.init('gekX2jNpGsM-LFjbU');
+  })();
+</script>
+
+<script type="text/javascript">
+
+  window.onload = function() {
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      
+      if (!validateForm()) return; 
+      
+      this.contact_number.value = Math.random() * 100000 | 0;
+
+      emailjs.sendForm('contact_service', 'contact_form', this)
+      .then(function() {
+          showToast("Email successfully sent");
+          console.log('SUCCESS!');
+        }, function(error) {
+          showToast("Failed to send email. Please try again");
+          console.log('FAILED...', error);
+      });
+    });
+  }
+  
+  function showToast(message) {
+    var toast = document.getElementById("toast");
+    document.getElementById("toast-message").textContent = message;
+    toast.style.display = "block";
+
+    setTimeout(function() {
+        toast.style.display = "none";
+    }, 4000);
+  }
+  
+  function validateForm() {
+    var name = document.forms["contact-form"]["user_name"].value;
+    var email = document.forms["contact-form"]["user_email"].value;
+    var message = document.forms["contact-form"]["message"].value;
+
+    if (name === "" || email === "" || message === "") {
+        showToast("Please fill in all fields");
+        return false; 
+    }
+
+    if (!validateEmail(email)) {
+        showToast("Please enter a valid email address");
+        return false; 
+    }
+
+    return true;
+  }
+  
+  function validateEmail(email) {
+    var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+  }
+</script>
 
 
 <link rel="stylesheet" href="assets/css/styles-global.css">
+<link rel="stylesheet" href="assets/css/styles-consulting.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -112,12 +177,27 @@ ul.task-list li input[type="checkbox"] {
 </div></div>
 </div>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOd3QqhMfbP-LobwNaQ4W8mDJGGV_dl8mGn-ZCSxE0LjysEw/viewform?embedded=true" class="responsive-iframe" frameborder="0" marginheight="0" marginwidth="0">
-Loading contact form…
-</iframe>
+<section id="contact-me" class="level2">
+<h2 data-anchor-id="contact-me">Contact me</h2>
+<div id="form-container">
+  <div id="toast">
+    <p id="toast-message">Message goes here</p>
+  </div>
+  <form id="contact-form">
+    <input type="hidden" name="contact_number">
+    <label>Your Name</label>
+    <input type="text" name="user_name">
+    <label>Your Email</label>
+    <input type="email" name="user_email">
+    <label>Your Request</label>
+    <textarea name="message"></textarea>
+    <input type="submit" value="Send">
+  </form>
+</div>
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
