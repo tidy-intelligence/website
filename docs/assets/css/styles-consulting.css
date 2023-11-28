@@ -10,6 +10,53 @@ h2 {
   border-bottom: 0px;
   padding-bottom: 0px;
 }
+
+img {
+  max-width: 100%; 
+  max-height: 100%; 
+  object-fit: cover; 
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 16x;
+  padding: 0px;
+  maring: 0px;
+}
+
+.grid-item {
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  padding: 16px;
+  text-align: center;
+  overflow: hidden;
+  align: center; 
+}
+
+
+
+.grid-item-image {
+  display: flex;
+  align-items: center; /* Vertically centers the image */
+  justify-content: center; /* Horizontally centers the image */
+  height: 100%; /* Full height of the grid item */
+  overflow: hidden; /* Prevents content from overflowing */
+  max-width: 80px;
+  max-height: 80px;
+}
+
+@media (max-width: 480px) {
+  .grid-item {
+    padding: 8px
+  }
+
+  .grid-item-image {
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
   
 /*=============== CONTACT ===============*/
 #form-container {
