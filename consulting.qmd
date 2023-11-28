@@ -1,7 +1,7 @@
 ---
 metadata:
-  pagetitle: "About Tidy Intelligence"
-  description-meta: "Who is behind Tidy Intelligence?"
+  pagetitle: "Tidy Data Science Consulting"
+  description-meta: "Get help to tidy up your data science or machine learning projects"
 about:
   id: hero-heading
   template: trestles

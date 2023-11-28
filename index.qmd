@@ -1,4 +1,7 @@
 ---
+metadata:
+  pagetitle: "Tidy Intelligence"
+  description-meta: "Let your data spark joy! Explore content about tidy data and machine learning, get help to tidy up your projects, or buy geek-chic data science swag."
 format: 
   html:
     include-in-header: 
@@ -37,7 +40,7 @@ var typed = new Typed('#typed', {
 :::
 
 ::: {#centered-text-blue}
-  A home for tidy data scientists
+  A home for tidy data science
 :::
 
 ```{=html}
