@@ -50,6 +50,10 @@ var typed = new Typed('#typed', {
       <img src="assets/img/logo-white.png" alt="Logo of Tidy Intelligence" width="100%">
       <a href="../about.html">Find out who is behind this website</a>
   </div>
+  <div class="card" onclick="window.location.href='https://www.etsy.com/shop/TidySwag'">
+      <img src="assets/img/tidy-swag.svg" alt="Logo of Tidy Intelligence" width="100%">
+      <a href="../about.html">Get geek-chic swag for data scientists and other techies</a>
+  </div>
 </div>
 ``` 
 
