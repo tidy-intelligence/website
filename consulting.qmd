@@ -54,7 +54,6 @@ As a data science professional, I have experience in developing **business intel
 </div>
 ```
 
- 
 ## Contact me  
 
 ```{=html} 
