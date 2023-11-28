@@ -1,3 +1,5 @@
+/* PAGE */
+
 h1 {
   padding-top: 8px;
   padding-bottom: 16px;
@@ -17,6 +19,8 @@ img {
   object-fit: cover; 
 }
 
+/* SKILLS */
+
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -35,14 +39,12 @@ img {
   align: center; 
 }
 
-
-
 .grid-item-image {
   display: flex;
-  align-items: center; /* Vertically centers the image */
-  justify-content: center; /* Horizontally centers the image */
-  height: 100%; /* Full height of the grid item */
-  overflow: hidden; /* Prevents content from overflowing */
+  align-items: center; 
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
   max-width: 80px;
   max-height: 80px;
 }
@@ -58,7 +60,8 @@ img {
   }
 }
   
-/*=============== CONTACT ===============*/
+/* CONTACT */
+
 #form-container {
   position: relative;
 }

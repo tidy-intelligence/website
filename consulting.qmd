@@ -16,16 +16,16 @@ format:
       - assets/css/styles-consulting.css
 ---
 
-:::{.emphasize}
-Economist by :mortar_board: and data scientist by :heart: 
-::: 
+## Economist by :mortar_board: and data scientist by :heart: 
 
 :::{#hero-heading}
 Hi there, I'm Christoph!
 
 As a graduate financial economist, I have acquired an extensive **hypothesis–driven** research and **problem–solving** expertise in **data wrangling**, **statistical analysis**, and **model development**.
 
-As a data science professional, I have experience in developing **business intelligence tools**, prototyping **data-driven products**, and designing **data pipelines**.
+As a data scienctist, I have experience in developing **business intelligence tools**, prototyping **data-driven products**, and designing **data architectures**.
+
+As a product manager, I have experience in all areas of software development, including **project management**, **agile methods**, and **design thinking**.
 :::
 
 ## Experience

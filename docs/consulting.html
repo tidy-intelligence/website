@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.424">
+<meta name="generator" content="quarto-1.4.506">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -124,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
@@ -166,9 +166,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="emphasize">
-<p>Economist by <span class="emoji" data-emoji="mortar_board">🎓</span> and data scientist by <span class="emoji" data-emoji="heart">❤️</span></p>
-</div>
+<section id="economist-by-and-data-scientist-by" class="level2">
+<h2 data-anchor-id="economist-by-and-data-scientist-by">Economist by <span class="emoji" data-emoji="mortar_board">🎓</span> and data scientist by <span class="emoji" data-emoji="heart">❤️</span></h2>
 <div class="quarto-about-trestles">
   <div class="about-entity">
     <img src="assets/img/avatar.jpeg" class="about-image
@@ -177,10 +176,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-contents"><div id="hero-heading">
 <p>Hi there, I’m Christoph!</p>
 <p>As a graduate financial economist, I have acquired an extensive <strong>hypothesis–driven</strong> research and <strong>problem–solving</strong> expertise in <strong>data wrangling</strong>, <strong>statistical analysis</strong>, and <strong>model development</strong>.</p>
-<p>As a data science professional, I have experience in developing <strong>business intelligence tools</strong>, prototyping <strong>data-driven products</strong>, and designing <strong>data pipelines</strong>.</p>
+<p>As a data scienctist, I have experience in developing <strong>business intelligence tools</strong>, prototyping <strong>data-driven products</strong>, and designing <strong>data architectures</strong>.</p>
+<p>As a product manager, I have experience in all areas of software development, including <strong>project management</strong>, <strong>agile methods</strong>, and <strong>design thinking</strong>.</p>
 </div></div>
 </div>
 
+</section>
 <section id="experience" class="level2">
 <h2 data-anchor-id="experience">Experience</h2>
 <div class="grid-container">
@@ -374,8 +375,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
         typesetMath(container);
         return container.innerHTML
