@@ -44,11 +44,11 @@ var typed = new Typed('#typed', {
 <div class="card-container">
   <div class="card" onclick="window.location.href='https://blog.tidy-intelligence.com/index.html'">
       <img src="assets/img/code.png" alt="Code Icon" width="100%">
-      <a href="https://blog.tidy-intelligence.com/">Explorer posts about data and machine learning</a>
+      <a href="https://blog.tidy-intelligence.com/">Explorer content about tidy data and machine learning</a>
   </div>
-  <div class="card" onclick="window.location.href='../about.html'">
+  <div class="card" onclick="window.location.href='../consulting.html'">
       <img src="assets/img/logo-white.png" alt="Logo of Tidy Intelligence" width="100%">
-      <a href="../about.html">Find out who is behind this website</a>
+      <a href="../consulting.html">Get help to tidy up your data-related projects</a>
   </div>
   <div class="card" onclick="window.location.href='https://www.etsy.com/shop/TidySwag'">
       <img src="assets/img/tidy-swag.svg" alt="Logo of Tidy Intelligence" width="100%">

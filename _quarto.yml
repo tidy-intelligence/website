@@ -14,8 +14,8 @@ website:
     left:
       - text: "Blog"
         url: https://blog.tidy-intelligence.com/
-      - text: "About"
-        file: about.qmd
+      - text: "Consulting"
+        file: consulting.qmd
 
 format:
   html:
