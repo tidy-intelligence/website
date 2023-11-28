@@ -16,6 +16,8 @@ website:
         url: https://blog.tidy-intelligence.com/
       - text: "Consulting"
         file: consulting.qmd
+      - text: "Swag"
+        url: https://www.etsy.com/shop/tidyswag/?etsrc=sdt&utm_source=tidy-intelligence.com
 
 format:
   html:
