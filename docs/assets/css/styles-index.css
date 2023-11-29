@@ -98,7 +98,7 @@ p {
   display: grid;
   padding: 20px;
   border-radius: 8px;
-  text-align: center;
+  text-align: left;
   cursor: pointer;
   width: 100%;
   max-width: 250px;
@@ -109,19 +109,17 @@ p {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-.card-body::after {
-  content: "Read post \27A1";
-  display: block;
-  margin-top: 8px;
-  margin-right: 9px;
-  font-size: .9em;
+.card .card-cta {
+  margin-top: 16px;
   font-weight: bold;
-  cursor: pointer;
+  text-decoration: none;
+  display: block; 
   text-align: right;
+  color: #333333;
 }
 
-.card-body:hover::after,
-.card-body:active::after {
+.card:hover .card-cta,
+.card:active .card-cta {
   text-decoration: underline;
 }
 
