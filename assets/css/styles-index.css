@@ -109,6 +109,22 @@ p {
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
+.card-body::after {
+  content: "Read post \27A1";
+  display: block;
+  margin-top: 8px;
+  margin-right: 9px;
+  font-size: .9em;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: right;
+}
+
+.card-body:hover::after,
+.card-body:active::after {
+  text-decoration: underline;
+}
+
 img {
   border-radius: 50%;
   padding: 24px;
