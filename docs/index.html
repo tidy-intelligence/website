@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.424">
+<meta name="generator" content="quarto-1.4.506">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -63,7 +63,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
@@ -134,17 +134,17 @@ var typed = new Typed('#typed', {
   <div class="card" onclick="window.location.href='https://blog.tidy-intelligence.com/index.html'">
       <img src="assets/img/code.png" alt="Code Icon" width="100%">
       <p>Explore content around tidy data and modeling</p>
-      <span class="card-cta">Read posts ➡</span>
+      <span class="card-cta">Read posts →</span>
   </div>
   <div class="card" onclick="window.location.href='../consulting.html'">
       <img src="assets/img/logo-white.png" alt="Logo of Tidy Intelligence" width="100%">
       <p>Get help to tidy up your data-related projects</p>
-      <span class="card-cta">Contact us ➡</span>
+      <span class="card-cta">Contact us →</span>
   </div>
   <div class="card" onclick="window.location.href='https://www.etsy.com/shop/tidyswag/?etsrc=sdt&amp;utm_source=tidy-intelligence.com'">
       <img src="assets/img/tidy-swag.svg" alt="Logo of Tidy Intelligence" width="100%">
       <p>Get geek-chic swag for data scientists</p>
-      <span class="card-cta">Buy merch ➡</span>
+      <span class="card-cta">Buy merch →</span>
   </div>
 </div>
 
@@ -418,8 +418,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
         typesetMath(container);
         return container.innerHTML
