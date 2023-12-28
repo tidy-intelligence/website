@@ -1,37 +1,37 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tidy Intelligence",
-    "section": "",
-    "text": "Let your data spark joy\n\n\nTidy \n\n\n\n\n\nA home for tidy data science\n\n\n  \n      \n      Explore content around tidy data and modeling\n      Read posts →\n  \n  \n      \n      Get help to tidy up your data-related projects\n      Contact us →\n  \n  \n      \n      Get geek-chic swag for data scientists\n      Buy merch →"
-  },
-  {
-    "objectID": "consulting.html",
-    "href": "consulting.html",
+    "objectID": "coaching.html",
+    "href": "coaching.html",
     "title": "Tidy Intelligence",
     "section": "",
     "text": "Hi there, I’m Christoph!\nAs a graduate financial economist, I have acquired an extensive hypothesis–driven research and problem–solving expertise in data wrangling, statistical analysis, and model development.\nAs a data scienctist, I have experience in developing business intelligence tools, prototyping data-driven products, and designing data architectures.\nAs a product manager, I have experience in all areas of software development, including project management, agile methods, and design thinking."
   },
   {
-    "objectID": "consulting.html#economist-by-and-data-scientist-by",
-    "href": "consulting.html#economist-by-and-data-scientist-by",
+    "objectID": "coaching.html#economist-by-and-data-scientist-by",
+    "href": "coaching.html#economist-by-and-data-scientist-by",
     "title": "Tidy Intelligence",
     "section": "",
     "text": "Hi there, I’m Christoph!\nAs a graduate financial economist, I have acquired an extensive hypothesis–driven research and problem–solving expertise in data wrangling, statistical analysis, and model development.\nAs a data scienctist, I have experience in developing business intelligence tools, prototyping data-driven products, and designing data architectures.\nAs a product manager, I have experience in all areas of software development, including project management, agile methods, and design thinking."
   },
   {
-    "objectID": "consulting.html#experience",
-    "href": "consulting.html#experience",
+    "objectID": "coaching.html#experience",
+    "href": "coaching.html#experience",
     "title": "Tidy Intelligence",
     "section": "Experience",
     "text": "Experience"
   },
   {
-    "objectID": "consulting.html#contact-me",
-    "href": "consulting.html#contact-me",
+    "objectID": "coaching.html#contact-me",
+    "href": "coaching.html#contact-me",
     "title": "Tidy Intelligence",
     "section": "Contact me",
     "text": "Contact me\n\n  \n    Message goes here\n  \n  \n    \n    Your Name\n    \n    Your Email\n    \n    Your Request"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tidy Intelligence",
+    "section": "",
+    "text": "Let your data spark joy\n\n\nTidy \n\n\n\n\n\nA home for tidy data science\n\n\n  \n      \n      Explore content around tidy data and modeling\n      Read posts →\n  \n  \n      \n      Get help to tidy up your data-related projects\n      Contact us →\n  \n  \n      \n      Get geek-chic swag for data scientists\n      Buy merch →"
   }
 ]

@@ -9,13 +9,21 @@ website:
   search: false
   page-navigation: false
   favicon: assets/img/favicon.ico
+  google-analytics: 
+    tracking-id: "G-YQF6MZY01S"
+    storage: cookies
+    anonymize-ip: true
+    version: 4
+  cookie-consent: 
+    type: express
+    style: interstitial
   navbar:
     pinned: true
     left:
       - text: "Blog"
         url: https://blog.tidy-intelligence.com/
-      - text: "Consulting"
-        file: consulting.qmd
+      - text: "Coaching"
+        file: coaching.qmd
       - text: "Swag"
         url: https://www.etsy.com/shop/tidyswag/?etsrc=sdt&utm_source=tidy-intelligence.com
 

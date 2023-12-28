@@ -1,6 +1,6 @@
 ---
 metadata:
-  pagetitle: "Tidy Data Science Consulting"
+  pagetitle: "Tidy Data Science Coaching"
   description-meta: "Get help to tidy up your data science or machine learning projects"
 about:
   id: hero-heading
@@ -13,7 +13,7 @@ format:
     include-in-header: 
       - assets/html/header-emailjs.html
     css: 
-      - assets/css/styles-consulting.css
+      - assets/css/styles-coaching.css
 ---
 
 ## Economist by :mortar_board: and data scientist by :heart: 
