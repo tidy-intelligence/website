@@ -23,12 +23,19 @@ a {
 }
 
 .responsive-iframe {
-  width: 100%;
-  height: 800px;
+  width: 100%; 
+  height: 800px; 
 }
 
+/* For mobile phones */
 @media (max-width: 480px) {
   .responsive-iframe {
       height: 1000px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navbar a {
+    padding: 8px;
   }
 }
