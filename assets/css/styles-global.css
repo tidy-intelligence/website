@@ -63,3 +63,8 @@ a {
 .custom-footer a:last-child {
     margin-right: 0; 
 }
+
+/* Remove default footer */
+.footer {
+  display: none;
+}
