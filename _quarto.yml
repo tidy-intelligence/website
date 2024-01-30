@@ -36,3 +36,5 @@ format:
     toc: false
     smooth-scroll: true
     from: markdown+emoji
+    include-after-body: assets/html/bottom-footer.html
+    
