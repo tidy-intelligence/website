@@ -1,51 +1,50 @@
 :root {
   --main-color: #3193C4;
-  --font-black:  #333333;
+  --font-black: #333333;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .navbar {
   background-color: var(--main-color);
 }
 
-.navbar a {
-  float: left; 
-  display: block;
-  color: white; 
-  text-align: center;
-  padding: 16px 16px; 
-  text-decoration: none; 
-}
-
-.navbar a:hover {
-  color: white;
-  text-decoration: underline; 
-}
-
-body {
-  font-family: 'Fira Sans', sans-serif; 
-}
-
-.navbar a:active {
-  color: white;
-  text-decoration: underline; 
-}
-
-.navbar a:visited {
-  color: white;
-  text-decoration: underline; 
-}
-
-.navbar-nav .nav-link.active {
-  color: white;
-  text-decoration: underline; 
-}
-
+.navbar a, 
+.navbar a:visited,
+.navbar a:active,
+.navbar a:hover,
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.active:hover,
 .navbar-nav .nav-link.focus {
   color: white;
+  text-decoration: none;
 }
 
+.navbar a:hover,
+.navbar a:active,
+.navbar a:visited,
+.navbar-nav .nav-link.active,
 .navbar-nav .nav-link.active:hover {
-  color: white;
+  text-decoration: underline;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 16px 16px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media screen and (max-width: 375px) {
+  .navbar a {
+    padding: 8px;
+  }
 }
 
 .emphasize {
@@ -55,39 +54,28 @@ body {
 }
 
 a {
-  text-decoration: none; 
+  text-decoration: none;
   color: var(--main-color);
 }
 
 .responsive-iframe {
-  width: 100%; 
-  height: 800px; 
+  width: 100%;
+  height: 800px;
 }
 
-/* For mobile phones */
 @media (max-width: 480px) {
   .responsive-iframe {
-      height: 1000px;
+    height: 1000px;
   }
 }
 
-@media screen and (max-width: 375px) {
-  .navbar a {
-    padding: 8px;
-  }
-}
-
-/* Custom footer styling */
 .custom-footer {
   text-align: center;
   font-size: smaller;
 }
 
-.custom-footer .copyright {
-    margin-bottom: 8px; 
-}
-
-.custom-footer a {
+.custom-footer a,
+.custom-footer a:hover {
   color: black;
   text-decoration: none;
   margin-right: 16px;
@@ -98,10 +86,9 @@ a {
 }
 
 .custom-footer a:last-child {
-    margin-right: 0; 
+  margin-right: 0;
 }
 
-/* Remove default footer */
 .footer {
   display: none;
 }
