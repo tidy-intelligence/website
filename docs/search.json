@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tidy Intelligence",
-    "section": "",
-    "text": "Let your data spark joy\n\n\nTidy \n\n\n\n\n\nA home for tidy data science\n\n\n  \n      \n      Explore content around tidy data and modeling\n      Read posts →\n  \n  \n      \n      Get help to tidy up your data-related projects\n      Contact us →\n  \n  \n      \n      Get geek-chic swag for data scientists\n      Buy merch →"
-  },
-  {
     "objectID": "coaching.html",
     "href": "coaching.html",
     "title": "Tidy Intelligence",
@@ -33,6 +26,13 @@
     "title": "Tidy Intelligence",
     "section": "Contact me",
     "text": "Contact me\n\n  \n    Message goes here\n  \n  \n    \n    Your Name\n    \n    Your Email\n    \n    Your Request"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tidy Intelligence",
+    "section": "",
+    "text": "Let your data spark joy\n\n\nTidy \n\n\n\n\n\nA home for tidy data science\n\n\n  \n      \n      Explore content around tidy data and modeling\n      Read posts →\n  \n  \n      \n      Get help to tidy up your data-related projects\n      Contact us →\n  \n  \n      \n      Get geek-chic swag for data scientists\n      Buy merch →"
   },
   {
     "objectID": "impressum.html",

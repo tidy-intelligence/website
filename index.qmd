@@ -39,7 +39,7 @@ var typed = new Typed('#typed', {
 :::
 :::
 
-::: {#centered-text}
+::: {#centered-text-blue}
   A home for tidy data science
 :::
 
