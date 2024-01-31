@@ -81,7 +81,7 @@ img {
 #contact-form input[type=text],
 #contact-form input[type=email],
 #contact-form textarea {
-  border: 1px solid #3b9ab2;
+  border: 1px solid var(--main-color);
   border-radius: 8px; 
   padding: 16px;
   font-size: 16px;
@@ -92,7 +92,7 @@ img {
   margin-top: 16px;
   border-radius: 8px;
   padding: 16px;
-  background-color: #3b9ab2;
+  background-color: var(--main-color);
   color: white;
   border: none;
   cursor: pointer;

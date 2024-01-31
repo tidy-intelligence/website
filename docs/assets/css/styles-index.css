@@ -22,11 +22,11 @@ body {
   }
 }
 
-#centered-text-blue {
+#centered-text {
   position: relative;
   left: 50%;
   transform: translate(-50%, 25%);
-  color: #3b9ab2;
+  color: var(--main-color);
   font-size: 40px;
   text-align: center;
   z-index: 2;
@@ -48,7 +48,7 @@ body {
   position: relative;
   width: 100vw;
   height: 50vh;
-  background-color: #3b9ab2;
+  background-color: var(--main-color);
   background-repeat: no-repeat;
   z-index: 1;
 }
@@ -115,7 +115,7 @@ p {
   text-decoration: none;
   display: block; 
   text-align: right;
-  color: #333333;
+  color: var(--font-black);
 }
 
 .card:hover .card-cta,

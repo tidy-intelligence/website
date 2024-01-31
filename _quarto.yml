@@ -20,6 +20,8 @@ website:
   navbar:
     pinned: true
     left:
+      - text: "Home"
+        file: index.qmd
       - text: "Blog"
         url: https://blog.tidy-intelligence.com/
       - text: "Coaching"
@@ -29,9 +31,7 @@ website:
 
 format:
   html:
-    theme:
-      - cosmo, 
-      - assets/css/theme.scss
+    theme: cosmo
     css: assets/css/styles-global.css
     toc: false
     smooth-scroll: true

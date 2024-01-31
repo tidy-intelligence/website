@@ -1,14 +1,51 @@
+:root {
+  --main-color: #3193C4;
+  --font-black:  #333333;
+}
+
+.navbar {
+  background-color: var(--main-color);
+}
+
 .navbar a {
   float: left; 
   display: block;
   color: white; 
   text-align: center;
-  padding: 14px 16px; 
+  padding: 16px 16px; 
   text-decoration: none; 
+}
+
+.navbar a:hover {
+  color: white;
+  text-decoration: underline; 
 }
 
 body {
   font-family: 'Fira Sans', sans-serif; 
+}
+
+.navbar a:active {
+  color: white;
+  text-decoration: underline; 
+}
+
+.navbar a:visited {
+  color: white;
+  text-decoration: underline; 
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
+  text-decoration: underline; 
+}
+
+.navbar-nav .nav-link.focus {
+  color: white;
+}
+
+.navbar-nav .nav-link.active:hover {
+  color: white;
 }
 
 .emphasize {
@@ -19,7 +56,7 @@ body {
 
 a {
   text-decoration: none; 
-  color: #3b9ab2;
+  color: var(--main-color);
 }
 
 .responsive-iframe {
