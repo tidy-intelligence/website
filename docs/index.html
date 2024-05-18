@@ -114,8 +114,8 @@ cookieconsent.run({
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./coaching.html"> 
-<span class="menu-text">Coaching</span></a>
+    <a class="nav-link" href="./contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="https://www.etsy.com/shop/tidyswag/?etsrc=sdt&amp;utm_source=tidy-intelligence.com"> 
@@ -170,7 +170,7 @@ var typed = new Typed('#typed', {
       <p>Explore content around tidy data and modeling</p>
       <span class="card-cta">Read posts →</span>
   </div>
-  <div class="card" onclick="window.location.href='../coaching.html'">
+  <div class="card" onclick="window.location.href='../contact.html'">
       <img src="assets/img/logo-white.png" alt="Logo of Tidy Intelligence" width="100%">
       <p>Tidy up your data-related projects</p>
       <span class="card-cta">Contact us →</span>
@@ -182,15 +182,15 @@ var typed = new Typed('#typed', {
   </div>
 </div>
 <div id="centered-text-blue">
-<p>Building blocks of tidyness</p>
+<p>Building blocks of tidiness</p>
 </div>
 <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
 
 <div class="achievements">
     <div class="work">
       <div class="work-icon">
-         <lord-icon src="https://cdn.lordicon.com/wwmtsdzm.json" trigger="hover" colors="primary:#3193c4,secondary:#3193c4" style="width:100px;height:100px">
-</lord-icon>
+         <lord-icon src="https://cdn.lordicon.com/wwmtsdzm.json" colors="primary:#3193c4,secondary:#3193c4" trigger="in" delay="1000" style="width:100px;height:100px">
+        </lord-icon>
       </div>
       <div class="work-description">
         <strong>Tidy Data</strong> Helps you effectively organize domain knowledge
@@ -198,7 +198,7 @@ var typed = new Typed('#typed', {
     </div>
     <div class="work">
       <div class="work-icon">
-        <lord-icon src="https://cdn.lordicon.com/vlycxjwx.json" trigger="hover" colors="primary:#3193c4,secondary:#3193c4" style="width:100px;height:100px">
+        <lord-icon src="https://cdn.lordicon.com/vlycxjwx.json" trigger="hover" delay="1000" colors="primary:#3193c4,secondary:#3193c4" style="width:100px;height:100px">
 </lord-icon>
       </div>
       <div class="work-description">
@@ -207,7 +207,7 @@ var typed = new Typed('#typed', {
     </div>
     <div class="work">
       <div class="work-icon">
-        <lord-icon src="https://cdn.lordicon.com/kqvibaec.json" trigger="hover" colors="primary:#3193c4,secondary:#3193c4" style="width:100px;height:100px">
+        <lord-icon src="https://cdn.lordicon.com/kqvibaec.json" trigger="hover" delay="1000" colors="primary:#3193c4,secondary:#3193c4" style="width:100px;height:100px">
 </lord-icon>
       </div>
       <div class="work-description">
@@ -216,7 +216,7 @@ var typed = new Typed('#typed', {
     </div>
     <div class="work">
       <div class="work-icon">
-        <lord-icon src="https://cdn.lordicon.com/abwrkdvl.json" colors="primary:#3193c4,secondary:#3193c4" trigger="hover" style="width:100px;height:100px">
+        <lord-icon src="https://cdn.lordicon.com/abwrkdvl.json" colors="primary:#3193c4,secondary:#3193c4" trigger="hover" delay="1000" style="width:100px;height:100px">
 </lord-icon>
       </div>
       <div class="work-description">
@@ -225,7 +225,7 @@ var typed = new Typed('#typed', {
     </div>
     <div class="work">
       <div class="work-icon">
-        <lord-icon src="https://cdn.lordicon.com/unukghxb.json" colors="primary:#3193c4,secondary:#3193c4" trigger="hover" style="width:100px;height:100px">
+        <lord-icon src="https://cdn.lordicon.com/unukghxb.json" colors="primary:#3193c4,secondary:#3193c4" trigger="hover" delay="1000" style="width:100px;height:100px">
 </lord-icon>
       </div>
       <div class="work-description">
@@ -234,7 +234,7 @@ var typed = new Typed('#typed', {
     </div>
      <div class="work">
       <div class="work-icon">
-        <lord-icon src="https://cdn.lordicon.com/wzwygmng.json" colors="primary:#3193c4,secondary:#3193c4" trigger="hover" style="width:100px;height:100px">
+        <lord-icon src="https://cdn.lordicon.com/wzwygmng.json" colors="primary:#3193c4,secondary:#3193c4" trigger="hover" delay="1000" style="width:100px;height:100px">
 </lord-icon>
       </div>
       <div class="work-description">
@@ -243,7 +243,7 @@ var typed = new Typed('#typed', {
     </div>
     <div class="work">
       <div class="work-icon">
-        <lord-icon src="https://cdn.lordicon.com/jdalicnn.json" colors="primary:#3193c4,secondary:#3193c4" trigger="hover" style="width:100px;height:100px">
+        <lord-icon src="https://cdn.lordicon.com/jdalicnn.json" colors="primary:#3193c4,secondary:#3193c4" trigger="hover" delay="1000" style="width:100px;height:100px">
 </lord-icon>
       </div>
       <div class="work-description">
@@ -251,6 +251,23 @@ var typed = new Typed('#typed', {
       </div>
     </div>
   </div>
+  
+  <script>
+        function updateTriggers() {
+            const icons = document.querySelectorAll('lord-icon');
+            if (window.innerWidth <= 768) {
+                icons.forEach(icon => icon.setAttribute('trigger', 'in'));
+            } else {
+                icons.forEach(icon => icon.setAttribute('trigger', 'hover'));
+            }
+        }
+
+        // Update triggers on initial load
+        updateTriggers();
+
+        // Update triggers on window resize
+        window.addEventListener('resize', updateTriggers);
+    </script>
 
 
 

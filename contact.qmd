@@ -1,7 +1,9 @@
 ---
 metadata:
   pagetitle: "Tidy Data Science Coaching"
-  description-meta: "Get help to tidy up your data science or machine learning projects"
+  description-meta: "Tidy up your data science or machine learning projects with Christoph Scheuch"
+aliases: 
+  - ../coaching.html
 about:
   id: hero-heading
   template: trestles
@@ -13,13 +15,13 @@ format:
     include-in-header: 
       - assets/html/header-emailjs.html
     css: 
-      - assets/css/styles-coaching.css
+      - assets/css/styles-contact.css
 ---
 
 ## Economist by :mortar_board: and data scientist by :heart: 
 
 :::{#hero-heading}
-Hi there, I'm Christoph!
+Hi there, I'm Christoph Scheuch!
 
 As a graduate financial economist, I have acquired an extensive **hypothesis–driven** research and **problem–solving** expertise in **data wrangling**, **statistical analysis**, and **model development**.
 
@@ -30,7 +32,15 @@ As a product manager, I have experience in all areas of software development, in
 
 ## Experience
 
+I'm the Head of AI at the social trading platform **[wikifolio.com](https://www.wikifolio.com?utm_source=christophscheuch.github.io)** and co-creator and maintainer of the **[Tidy Finance](https://www.tidy-finance.org?utm_source=christophscheuch.github.io)** project.
+
+I write about tidy data science with R, Python and Julia on my blog **[Tidy Intelligence](https://blog.tidy-intelligence.com/?utm_source=christophscheuch.github.io)**.
+
+I occasionally design shirts and mugs that you can find under the **[Tidy Swag](https://www.etsy.com/shop/tidyswag/?etsrc=sdt&utm_source=christophscheuch.github.io)** brand.
+
+I'm also co-organizing events of the **[Berlin R Users Group](https://www.meetup.com/de-DE/berlin-r-users-group/)**. 
 ```{=html}
+<p>I have extensive experience with the following tools:</p>
 <div class="grid-container">
   <div class="grid-item"><div class="grid-item-image"><img src="assets/img/skills-r.png" alt="Logo of R programming language"></div></div>
   <div class="grid-item"><div class="grid-item-image"><img src="assets/img/skills-python.png" alt="Logo of Python programming language"></div></div>
@@ -54,9 +64,10 @@ As a product manager, I have experience in all areas of software development, in
 </div>
 ```
 
-## Contact me  
+## Get in touch
 
 ```{=html} 
+<p>Contact me to chat about opportunities to work together, mentorship requests, or speaking engagements.</p>
 <div id="form-container">
   <div id="toast">
     <p id="toast-message">Message goes here</p>
@@ -73,4 +84,3 @@ As a product manager, I have experience in all areas of software development, in
   </form>
 </div>
 ``` 
-

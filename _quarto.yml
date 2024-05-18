@@ -24,8 +24,8 @@ website:
         file: index.qmd
       - text: "Blog"
         url: https://blog.tidy-intelligence.com/
-      - text: "Coaching"
-        file: coaching.qmd
+      - text: "Contact"
+        file: contact.qmd
       - text: "Swag"
         url: https://www.etsy.com/shop/tidyswag/?etsrc=sdt&utm_source=tidy-intelligence.com
 

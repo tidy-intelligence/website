@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "coaching.html",
-    "href": "coaching.html",
-    "title": "Tidy Intelligence",
-    "section": "",
-    "text": "Hi there, I’m Christoph!\nAs a graduate financial economist, I have acquired an extensive hypothesis–driven research and problem–solving expertise in data wrangling, statistical analysis, and model development.\nAs a data scienctist, I have experience in developing business intelligence tools, prototyping data-driven products, and designing data architectures.\nAs a product manager, I have experience in all areas of software development, including project management, agile methods, and design thinking."
-  },
-  {
-    "objectID": "coaching.html#economist-by-and-data-scientist-by",
-    "href": "coaching.html#economist-by-and-data-scientist-by",
-    "title": "Tidy Intelligence",
-    "section": "",
-    "text": "Hi there, I’m Christoph!\nAs a graduate financial economist, I have acquired an extensive hypothesis–driven research and problem–solving expertise in data wrangling, statistical analysis, and model development.\nAs a data scienctist, I have experience in developing business intelligence tools, prototyping data-driven products, and designing data architectures.\nAs a product manager, I have experience in all areas of software development, including project management, agile methods, and design thinking."
-  },
-  {
-    "objectID": "coaching.html#experience",
-    "href": "coaching.html#experience",
-    "title": "Tidy Intelligence",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "coaching.html#contact-me",
-    "href": "coaching.html#contact-me",
-    "title": "Tidy Intelligence",
-    "section": "Contact me",
-    "text": "Contact me\n\n  \n    Message goes here\n  \n  \n    \n    Your Name\n    \n    Your Email\n    \n    Your Request"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Tidy Intelligence",
-    "section": "",
-    "text": "Let your data spark joy\n\n\nTidy \n\n\n\n\n\nA home for tidy data science\n\n\n  \n      \n      Explore content around tidy data and modeling\n      Read posts →\n  \n  \n      \n      Tidy up your data-related projects\n      Contact us →\n  \n  \n      \n      Wear geek-chic swag for data nerds\n      Buy merch →\n  \n\n\nBuilding blocks of tidyness\n\n\n\n\n    \n      \n         \n\n      \n      \n        Tidy Data Helps you effectively organize domain knowledge\n      \n    \n    \n      \n        \n\n      \n      \n        Tidy Programming Helps you write readable code for oneself and others\n      \n    \n    \n      \n        \n\n      \n      \n        Reproducible Workflows Help you collaborate with your future self and others\n      \n    \n    \n      \n        \n\n      \n      \n       Data Storytelling Helps you communicate insights to any target audience\n      \n    \n    \n      \n        \n\n      \n      \n        Exploratory Modeling Helps you uncover new insights\n      \n    \n     \n      \n        \n\n      \n      \n        Interactive Reporting Helps you empower your stakeholders\n      \n    \n    \n      \n        \n\n      \n      \n        Working with AI tools Helps you expand your capabilities"
-  },
-  {
     "objectID": "impressum.html",
     "href": "impressum.html",
     "title": "Impressum",
@@ -96,5 +61,40 @@
     "title": "Impressum",
     "section": "",
     "text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.\nSoweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Tidy Intelligence",
+    "section": "",
+    "text": "Hi there, I’m Christoph Scheuch!\nAs a graduate financial economist, I have acquired an extensive hypothesis–driven research and problem–solving expertise in data wrangling, statistical analysis, and model development.\nAs a data scienctist, I have experience in developing business intelligence tools, prototyping data-driven products, and designing data architectures.\nAs a product manager, I have experience in all areas of software development, including project management, agile methods, and design thinking."
+  },
+  {
+    "objectID": "contact.html#economist-by-and-data-scientist-by",
+    "href": "contact.html#economist-by-and-data-scientist-by",
+    "title": "Tidy Intelligence",
+    "section": "",
+    "text": "Hi there, I’m Christoph Scheuch!\nAs a graduate financial economist, I have acquired an extensive hypothesis–driven research and problem–solving expertise in data wrangling, statistical analysis, and model development.\nAs a data scienctist, I have experience in developing business intelligence tools, prototyping data-driven products, and designing data architectures.\nAs a product manager, I have experience in all areas of software development, including project management, agile methods, and design thinking."
+  },
+  {
+    "objectID": "contact.html#experience",
+    "href": "contact.html#experience",
+    "title": "Tidy Intelligence",
+    "section": "Experience",
+    "text": "Experience\nI’m the Head of AI at the social trading platform wikifolio.com and co-creator and maintainer of the Tidy Finance project.\nI write about tidy data science with R, Python and Julia on my blog Tidy Intelligence.\nI occasionally design shirts and mugs that you can find under the Tidy Swag brand.\nI’m also co-organizing events of the Berlin R Users Group.\nI have extensive experience with the following tools:"
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Tidy Intelligence",
+    "section": "Get in touch",
+    "text": "Get in touch\nContact me to chat about opportunities to work together, mentorship requests, or speaking engagements.\n\n  \n    Message goes here\n  \n  \n    \n    Your Name\n    \n    Your Email\n    \n    Your Request"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tidy Intelligence",
+    "section": "",
+    "text": "Let your data spark joy\n\n\nTidy \n\n\n\n\n\nA home for tidy data science\n\n\n  \n      \n      Explore content around tidy data and modeling\n      Read posts →\n  \n  \n      \n      Tidy up your data-related projects\n      Contact us →\n  \n  \n      \n      Wear geek-chic swag for data nerds\n      Buy merch →\n  \n\n\nBuilding blocks of tidiness\n\n\n\n\n    \n      \n         \n        \n      \n      \n        Tidy Data Helps you effectively organize domain knowledge\n      \n    \n    \n      \n        \n\n      \n      \n        Tidy Programming Helps you write readable code for oneself and others\n      \n    \n    \n      \n        \n\n      \n      \n        Reproducible Workflows Help you collaborate with your future self and others\n      \n    \n    \n      \n        \n\n      \n      \n       Data Storytelling Helps you communicate insights to any target audience\n      \n    \n    \n      \n        \n\n      \n      \n        Exploratory Modeling Helps you uncover new insights\n      \n    \n     \n      \n        \n\n      \n      \n        Interactive Reporting Helps you empower your stakeholders\n      \n    \n    \n      \n        \n\n      \n      \n        Working with AI tools Helps you expand your capabilities"
   }
 ]
