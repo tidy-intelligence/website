@@ -127,3 +127,51 @@ img {
   border-radius: 50%;
   padding: 24px;
 }
+
+/* Building blocks */
+.achievements {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: 0 auto;
+  gap: 8px;
+}
+
+.work {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  width: 100%;
+}
+
+.work:last-child {
+  grid-column: 2; 
+}
+
+.work-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px;
+}
+
+.work-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  width: 70%;
+}
+
+@media (max-width: 768px) {
+  .achievements {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .work:last-child {
+    grid-column: auto; 
+  }
+}

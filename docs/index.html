@@ -2,11 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.538">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Let your data spark joy! Explore content about tidy data and machine learning, get help to tidy up your projects, or buy geek-chic data science swag.">
+<meta name="description" content="Let your data spark joy! Explore content about tidy data and machine learning, get support to tidy up your projects, or buy geek-chic data science swag.">
 
 <title>Tidy Intelligence</title>
 <style>
@@ -172,15 +172,85 @@ var typed = new Typed('#typed', {
   </div>
   <div class="card" onclick="window.location.href='../coaching.html'">
       <img src="assets/img/logo-white.png" alt="Logo of Tidy Intelligence" width="100%">
-      <p>Get help to tidy up your data-related projects</p>
+      <p>Tidy up your data-related projects</p>
       <span class="card-cta">Contact us →</span>
   </div>
   <div class="card" onclick="window.location.href='https://www.etsy.com/shop/tidyswag/?etsrc=sdt&amp;utm_source=tidy-intelligence.com'">
       <img src="assets/img/tidy-swag.svg" alt="Logo of Tidy Intelligence" width="100%">
-      <p>Get geek-chic swag for data scientists</p>
+      <p>Wear geek-chic swag for data nerds</p>
       <span class="card-cta">Buy merch →</span>
   </div>
 </div>
+<div id="centered-text-blue">
+<p>Building blocks of tidyness</p>
+</div>
+<script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+
+<div class="achievements">
+    <div class="work">
+      <div class="work-icon">
+         <lord-icon src="https://cdn.lordicon.com/wwmtsdzm.json" trigger="hover" colors="primary:#3193c4,secondary:#3193c4" style="width:100px;height:100px">
+</lord-icon>
+      </div>
+      <div class="work-description">
+        <strong>Tidy Data</strong> Helps you effectively organize domain knowledge
+      </div>
+    </div>
+    <div class="work">
+      <div class="work-icon">
+        <lord-icon src="https://cdn.lordicon.com/vlycxjwx.json" trigger="hover" colors="primary:#3193c4,secondary:#3193c4" style="width:100px;height:100px">
+</lord-icon>
+      </div>
+      <div class="work-description">
+        <strong>Tidy Programming</strong> Helps you write readable code for oneself and others
+      </div>
+    </div>
+    <div class="work">
+      <div class="work-icon">
+        <lord-icon src="https://cdn.lordicon.com/kqvibaec.json" trigger="hover" colors="primary:#3193c4,secondary:#3193c4" style="width:100px;height:100px">
+</lord-icon>
+      </div>
+      <div class="work-description">
+        <strong>Reproducible Workflows</strong> Help you collaborate with your future self and others
+      </div>
+    </div>
+    <div class="work">
+      <div class="work-icon">
+        <lord-icon src="https://cdn.lordicon.com/abwrkdvl.json" colors="primary:#3193c4,secondary:#3193c4" trigger="hover" style="width:100px;height:100px">
+</lord-icon>
+      </div>
+      <div class="work-description">
+       <strong>Data Storytelling</strong> Helps you communicate insights to any target audience
+      </div>
+    </div>
+    <div class="work">
+      <div class="work-icon">
+        <lord-icon src="https://cdn.lordicon.com/unukghxb.json" colors="primary:#3193c4,secondary:#3193c4" trigger="hover" style="width:100px;height:100px">
+</lord-icon>
+      </div>
+      <div class="work-description">
+        <strong>Exploratory Modeling</strong> Helps you uncover new insights
+      </div>
+    </div>
+     <div class="work">
+      <div class="work-icon">
+        <lord-icon src="https://cdn.lordicon.com/wzwygmng.json" colors="primary:#3193c4,secondary:#3193c4" trigger="hover" style="width:100px;height:100px">
+</lord-icon>
+      </div>
+      <div class="work-description">
+        <strong>Interactive Reporting</strong> Helps you empower your stakeholders
+      </div>
+    </div>
+    <div class="work">
+      <div class="work-icon">
+        <lord-icon src="https://cdn.lordicon.com/jdalicnn.json" colors="primary:#3193c4,secondary:#3193c4" trigger="hover" style="width:100px;height:100px">
+</lord-icon>
+      </div>
+      <div class="work-description">
+        <strong>Working with AI tools</strong> Helps you expand your capabilities
+      </div>
+    </div>
+  </div>
 
 
 
@@ -385,6 +455,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.tidy-intelligence\.com");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -419,7 +507,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -467,7 +559,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      return note.innerHTML;
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
