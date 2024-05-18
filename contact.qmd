@@ -84,3 +84,9 @@ I'm also co-organizing events of the **[Berlin R Users Group](https://www.meetup
   </form>
 </div>
 ``` 
+
+## Follow me on Linkedin
+
+```{=html} 
+<div class='sk-ww-linkedin-profile-post' data-embed-id='25414069'></div><script src='https://widgets.sociablekit.com/linkedin-profile-posts/widget.js' async defer></script>
+```
