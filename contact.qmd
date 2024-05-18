@@ -67,7 +67,7 @@ I'm also co-organizing events of the **[Berlin R Users Group](https://www.meetup
 ## Get in touch
 
 ```{=html} 
-<p>Contact me to chat about opportunities to work together, mentorship requests, or speaking engagements.</p>
+<p>Contact me to chat about opportunities to work together, mentorship requests, workshops, or speaking engagements.</p>
 <div id="form-container">
   <div id="toast">
     <p id="toast-message">Message goes here</p>
