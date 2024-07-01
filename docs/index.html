@@ -141,23 +141,22 @@ cookieconsent.run({
 
 <div id="particles-js">
 <div id="centered-text-white">
-<p style="font-family: 'Libre Baskerville', serif"><i>Let your data spark joy<br><br></i></p>
+<p>Let your data spark joy<br><br></p>
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 
 <p>Tidy <br><strong><span id="typed"></span></strong></p>
 
 <script> 
-var typed = new Typed('#typed', {
+  var typed = new Typed('#typed', {
     strings: ["Data", "Code", "Business Intelligence", "Artificial Intelligence", "Intelligence"],
     typeSpeed: 50,
     backSpeed: 50,
     loop: false,
-    showCursor: true, // Show the cursor during typing
+    showCursor: true, 
     onComplete: function(self) { 
-        // Hide the cursor after the last string is typed
-        self.cursor.remove();
+      self.cursor.remove();
     }
-});
+  });
 </script>
 </div>
 </div>
