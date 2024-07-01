@@ -51,7 +51,7 @@ var typed = new Typed('#typed', {
       <span class="card-cta">Read posts &#x2192;</span>
   </div>
   <div class="card" onclick="window.location.href='../contact.html'">
-      <img src="assets/img/logo-white.png" alt="Logo of Tidy Intelligence" width="100%">
+      <img src="assets/img/tidy-intelligence.png" alt="Logo of Tidy Intelligence" width="100%">
       <p>Tidy up your data-related projects</p>
       <span class="card-cta">Contact us &#x2192;</span>
   </div>
