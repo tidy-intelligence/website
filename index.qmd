@@ -1,6 +1,6 @@
 ---
 metadata:
-  pagetitle: "Tidy Intelligence"
+  pagetitle: "Tidily"
   description-meta: "Let your data spark joy! Explore content about tidy data and machine learning, get support to tidy up your projects, or buy geek-chic data science swag."
 format: 
   html:
@@ -188,7 +188,7 @@ Building blocks of tidiness
 ```
 
 ::: {#centered-text-blue}
-Who is behind Tidy Intelligence?
+Who is behind Tidily?
 :::
 
 ```{=html}
