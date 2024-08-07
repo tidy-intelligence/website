@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Tidily"
+  title: "Tidy Intelligence"
   description: "Let your data spark joy!"
   site-url: https://www.tidy-intelligence.com
   search: false
