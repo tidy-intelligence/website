@@ -22,6 +22,8 @@ website:
     left:
       - text: "Home"
         file: index.qmd
+      - text: "Apps"
+        url: https://apps.tidy-intelligence.com/
       - text: "Blog"
         url: https://blog.tidy-intelligence.com/
       - text: "Contact"
