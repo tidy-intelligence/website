@@ -1,6 +1,6 @@
 ---
 metadata:
-  pagetitle: "Tidy Data Science Coaching"
+  pagetitle: "Contact Tidy Intelligence"
   description-meta: "Tidy up your data science or machine learning projects with Christoph Scheuch"
 aliases: 
   - ../coaching.html
@@ -32,7 +32,11 @@ As a product manager, I have experience in all areas of software development, in
 
 ## Experience
 
-I'm the Head of AI at the social trading platform **[wikifolio.com](https://www.wikifolio.com?utm_source=christophscheuch.github.io)** and co-creator and maintainer of the **[Tidy Finance](https://www.tidy-finance.org?utm_source=christophscheuch.github.io)** project.
+I'm an independent expert in finance and data. I provide services and trainings related to data workflows, data infrastructure, data analysis, machine learning, and general data science topics.
+
+Previously, I was the Head of AI, Director of Product, and Head of BI & Data Science at the social trading platform **[wikifolio.com](https://www.wikifolio.com?utm_source=christophscheuch.github.io)**.
+
+I'm also a co-creator and maintainer of the **[Tidy Finance](https://www.tidy-finance.org?utm_source=christophscheuch.github.io)** project.
 
 I write about tidy data science with R, Python and Julia on my blog **[Tidy Intelligence](https://blog.tidy-intelligence.com/?utm_source=christophscheuch.github.io)**.
 
